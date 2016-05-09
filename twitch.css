@@ -1,0 +1,26 @@
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.streamerDiv * {
+	margin: 10px 10px;
+	display: inline;
+	width: 100%; 
+	visibility: hidden;
+}
+
+.streamerDiv img {
+	width: 100px;
+	height: 100px;
+}
+
+.online {
+	background-color: green;
+	visibility: hidden; 
+}
+
+.offline, .accClosed {
+	background-color: blue; 
+	visibility: hidden;
+}
